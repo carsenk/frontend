@@ -981,6 +981,18 @@ $green-font-color: #19B028;
   position: relative;
 }
 
+.ddropdown {
+  background: var(--background);
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+
+.ddropdown option {
+  background: var(--background);
+  color: var(--text);
+  border-bottom: 1px solid var(--border);
+}
+
 .modal-content {
   position: relative;
   background-color: var(--secalt);
