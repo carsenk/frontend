@@ -1023,7 +1023,9 @@ $green-font-color: #19B028;
 .modal-header .feed-create-comment-form__close {
   margin: 0;
   padding: 0;
-  float: none
+  float: none;
+  color: var(--text);
+  text-shadow: 0 1px 0 #fff;
 }
 
 .feed-create-post__avatar_default {
