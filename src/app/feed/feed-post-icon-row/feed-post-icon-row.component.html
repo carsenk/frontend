@@ -78,7 +78,7 @@
     <i
       [ngClass]="{
         'icon-heart': postContent.PostEntryReaderState ? !postContent.PostEntryReaderState.LikedByReader : true,
-        'icon-heart-fill': postContent.PostEntryReaderState ? postContent.PostEntryReaderState.LikedByReader : false
+        'icon-heart-fill is_animating': postContent.PostEntryReaderState ? postContent.PostEntryReaderState.LikedByReader : false
       }"
       class="feed-post-icon-row__icon"
     ></i>
