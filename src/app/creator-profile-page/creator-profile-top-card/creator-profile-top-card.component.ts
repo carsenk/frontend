@@ -144,11 +144,6 @@ export class CreatorProfileTopCardComponent implements OnInit, OnDestroy {
       this.childFollowComponent.unfollow();
     }
   }
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> 61ebe41d05773f49f82a91cdf966be7a36b6e014
   getFoundersRewardPercent() {
     return this.profile.CoinEntry.CreatorBasisPoints / 100;
   }
