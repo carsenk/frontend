@@ -5,7 +5,6 @@ import { Subscription } from "rxjs";
 import { FollowChangeObservableResult } from "../../../lib/observable-results/follow-change-observable-result";
 import { AppRoutingModule } from "../../app-routing.module";
 import { FollowButtonComponent } from "../../follow-button/follow-button.component";
-
 @Component({
   selector: "creator-profile-top-card",
   templateUrl: "./creator-profile-top-card.component.html",
@@ -145,7 +144,11 @@ export class CreatorProfileTopCardComponent implements OnInit, OnDestroy {
       this.childFollowComponent.unfollow();
     }
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 61ebe41d05773f49f82a91cdf966be7a36b6e014
   getFoundersRewardPercent() {
     return this.profile.CoinEntry.CreatorBasisPoints / 100;
   }
